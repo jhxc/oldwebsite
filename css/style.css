@@ -170,7 +170,6 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 #photo{
-  float:right;
   padding-left: 10px;
 }
 
@@ -193,6 +192,7 @@ ul#pics li{
   background: #e6e6e6;
   display: block;
   height: 300px;
+  text-align: center;
 }
 
 
