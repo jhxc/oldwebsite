@@ -7,11 +7,21 @@ body{
   background-color: #f4f4f4;
 }
 
+.float{
+  display: inline-block;
+}
+
 /* Global */
 .container{
   width: 80%;
   margin: auto;
   overflow: hidden;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button_1{
@@ -84,9 +94,9 @@ header a:hover{
 /* showcase*/
 #showcase{
   min-height: 400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background-image: linear-gradient(to bottom right, rgb(3, 3, 3), rgb(170, 170, 170));
+  opacity: 1;
   text-align: center;
-  color: #ffffff;
 
 }
 
@@ -94,10 +104,15 @@ header a:hover{
   margin-top: 100px;
   font-size: 55px;
   margin-bottom: 10px;
+  color: rgb(230, 231, 238);
+  font-family: 'Montserrat', sans-serif;
+  opacity: 1;
 }
 
 #showcase p{
   font-size: 20px;
+  color: white;
+  opacity: 1;
 }
 
 /*newsletter */
@@ -134,9 +149,10 @@ header a:hover{
   text-align: center;
 }
 
-#boxes .box img{
-  width:90px;
+#boxes ul{
+  text-align: left;
 }
+
 
 /*sidebar, no space between aside and sidebar idk why*/
 aside#sidebar{
@@ -153,6 +169,12 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-col{
   float: left;
   width: 65%;
+
+}
+
+#photo{
+  float:right;
+  padding-left: 10px;
 }
 
 /* services */
@@ -162,7 +184,9 @@ ul#services li{
   border: #cccccc solid 1px;
   margin-bottom: 5px;
   background: #e6e6e6;
+  display: inline-block;
 }
+
 
 /*footer */
 footer {
